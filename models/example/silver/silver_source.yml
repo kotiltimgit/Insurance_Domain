@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: insurance_silver
+    database: DBT_DB_DEV
+    schema: INSURANCE_SILVER
+    tables:
+      - name: CUSTOMER
+      - name: POLICY
+      - name: POLICY_COVERAGE
+      - name: CLAIM
+      
